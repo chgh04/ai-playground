@@ -6,7 +6,7 @@
 
 ## Logs
 
-### 1. Deep Learning: AI 이미지 판단 및 화풍 분류 모델 (Baseline.upynb)
+### 1. Deep Learning: AI 이미지 판단 및 화풍 분류 모델 (Baseline.ipynb)
 - **목적:** AI가 생성한 이미지의 노이즈/특징 패턴을 분석하여 실제 그림과의 차이를 분류하고, 특정 화풍을 판별하는 딥러닝 아키텍처입니다. 한림대학교 25-2 딥러닝 이론 및 응용 기말 프로젝트입니다.
 - **핵심 기술:** CNN (Convolutional Neural Network), PyTorch
   - **Multi-Task Learning:** 하나의 백본 네트워크에서 이미지의 AI 생성 여부(is_ai)와 화풍 장르(style_id)를 동시에 예측하는 복합 모델 구조를 설계하였습니다.
